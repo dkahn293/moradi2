@@ -64,6 +64,8 @@ color: #00AEDE;
 }
 
 .services-button:hover .service-popup {    /* This used to be `.features-menu` */
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;                    /* Leave everything else alone */
   /* flex-direction: column;
   background: #B2D6FF;
@@ -74,7 +76,8 @@ color: #00AEDE;
     position: absolute;
     /* Rectangle 6: */
     background: #FFFFFF;
-    box-shadow: 0 2px 36px 0 rgba(125,125,125,0.50);
+    -webkit-box-shadow: 0 2px 36px 0 rgba(125,125,125,0.50);
+            box-shadow: 0 2px 36px 0 rgba(125,125,125,0.50);
     border-radius: 29px;
     width: 40em;
     padding: 5em;
@@ -103,9 +106,15 @@ color: #00AEDE;
     background-image: url("./assets/checking-teeth.JPG");
     background-color: transparent;
     background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: flex-end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
 }
 
 ol {
@@ -123,7 +132,10 @@ h2 {
 }
 
 .section-title {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
 
 .section-title > h2 {

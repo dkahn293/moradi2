@@ -25,10 +25,19 @@ video {
 /* Bitmap: */
     background-image: linear-gradient(-136deg, rgba(85,171,165,0.60) 0%, rgba(87,132,171,0.60) 100%);  position: absolute;
   top: 0; right: 0; bottom: 0; left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .sub-header {
@@ -81,9 +90,12 @@ h5 {
     padding-top: 2em;
 }
 .info-container {
+display: -webkit-box;
+display: -ms-flexbox;
 display: flex;
 text-align: left; 
-flex-wrap: wrap;
+-ms-flex-wrap: wrap; 
+    flex-wrap: wrap;
     max-width: 1300px;
     margin: 0 auto;
 
@@ -92,9 +104,12 @@ flex-wrap: wrap;
 .info-card {
     /* Rectangle 3: */
     border-radius: 25px;
-    background-image: -webkit-linear-gradient(top, #009CD1, #009CD1 35%, transparent 35%, transparent 100%);
-    background-image: linear-gradient(top, #009CD1, #009CD1 35%, transparent 35%, transparent 100%);
-    box-shadow: 0 2px 36px 0 rgba(125,125,125,0.50);
+    /* background-image: -webkit-linear-gradient(top, #009CD1, #009CD1 35%, transparent 35%, transparent 100%);
+    background-image: linear-gradient(top, #009CD1, #009CD1 35%, transparent 35%, transparent 100%); */
+
+    background-image: #009CD1;
+    -webkit-box-shadow: 0 2px 36px 0 rgba(125,125,125,0.50);
+            box-shadow: 0 2px 36px 0 rgba(125,125,125,0.50);
     
         font-family: 'Source Sans Pro', sans-serif;
         font-size: 1.1em;
@@ -129,9 +144,15 @@ flex-wrap: wrap;
 .moradi-welcome-pic {
 /* width: 33.3%; */
 /* margin-right: 100px; */
-flex-grow: 1;
+-webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+        flex-grow: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 
 
 /* flex */
@@ -148,8 +169,11 @@ background: rgba(30,169,218,0.30);
 }
 /*parent*/
 .treatments-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     max-width: 900px;
     margin: 0 auto;
     padding-top: 3em;
@@ -173,6 +197,8 @@ background: rgba(30,169,218,0.30);
 }
 
 .social-feed {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     overflow-x: scroll;
     height: 400px;
@@ -189,8 +215,11 @@ background: rgba(30,169,218,0.30);
 
 }
 .map-text-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     margin: 3em auto;
     max-width: 1000px;
 
@@ -200,7 +229,9 @@ background: rgba(30,169,218,0.30);
     /* width: 100%;  The width is the width of the web page */
     /* width: 300px; */
     margin-left: 2em;
-    flex-grow: 1; 
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1; 
 }
 .map-text {
  margin: 0 3em auto 3em;
@@ -322,8 +353,13 @@ background: rgba(30,169,218,0.30);
 
 @media only screen and (max-width: 600px) {
     .map-text-container{
-        flex-direction: column;
-        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
     #map {
         width: 100%;
@@ -337,8 +373,13 @@ background: rgba(30,169,218,0.30);
 }
 @media only screen and (min-width: 601px) and (max-width: 800px) {
     .map-text-container{
-        flex-direction: column;
-        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
     #map {
         width: 75%;
@@ -355,11 +396,16 @@ background: rgba(30,169,218,0.30);
 
 @media only screen and (min-width: 801px) {
 .map-text-container{
-    flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
     /* align-items: center; */
 }
     #map {
-        flex-grow: 1;
+        -webkit-box-flex: 1;
+            -ms-flex-positive: 1;
+                flex-grow: 1;
         max-width: 60%;
     }
 
@@ -377,8 +423,13 @@ background: rgba(30,169,218,0.30);
 
 @media only screen and (min-width: 0px) and (max-width: 600px) {
     .info-container {
-        align-items: center;
-        flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
 .moradi-welcome-pic{
     display: none;
@@ -393,15 +444,26 @@ background: rgba(30,169,218,0.30);
     margin-top: 2em;
 }
     .info-card-container {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        justify-content: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
     width: 100%;
     padding-left: 0;
     }
     .welcome-message {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
-        justify-content: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
         padding-left: 0;
         width: 70%;
 
@@ -416,9 +478,15 @@ background: rgba(30,169,218,0.30);
 
 @media only screen and (min-width: 600px) and (max-width: 919px) {
       .info-container {
-        justify-content: center;
-        flex-direction: row;
-        flex-wrap: wrap;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
     }
 .moradi-welcome-pic{
     width: 50%;
@@ -432,15 +500,26 @@ background: rgba(30,169,218,0.30);
     margin-top: 2em;
 }
     .info-card-container {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        justify-content: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
     width: 50%;
     padding-left: 0;
     }
     .welcome-message {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
-        justify-content: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
         padding-left: 0;
         width: 70%;
 
