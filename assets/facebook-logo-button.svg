@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>facebook-logo-button</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-Copy-2" transform="translate(-726.000000, -3853.000000)">
+            <g id="Group-13" transform="translate(726.000000, 3800.000000)">
+                <g id="Group-5" transform="translate(0.000000, 53.000000)">
+                    <g id="facebook-logo-button">
+                        <circle id="Oval" fill="#FFFFFF" cx="24.5" cy="24.5" r="22.5"></circle>
+                        <path d="M25,0 C11.2150568,0 0,11.2150568 0,25 C0,38.7839362 11.2150568,50 25,50 C38.7839362,50 50,38.7839362 50,25 C50,11.2150568 38.7859502,0 25,0 Z M31.2172722,25.8801257 L27.1499637,25.8801257 C27.1499637,32.3783533 27.1499637,40.3770241 27.1499637,40.3770241 L21.1230162,40.3770241 C21.1230162,40.3770241 21.1230162,32.455893 21.1230162,25.8801257 L18.2580762,25.8801257 L18.2580762,20.756465 L21.1230162,20.756465 L21.1230162,17.4423991 C21.1230162,15.0688794 22.250866,11.3600661 27.2053492,11.3600661 L31.6714332,11.3771852 L31.6714332,16.3508016 C31.6714332,16.3508016 28.9575445,16.3508016 28.4298719,16.3508016 C27.9021993,16.3508016 27.1519778,16.6146379 27.1519778,17.7465157 L27.1519778,20.757472 L31.7439378,20.757472 L31.2172722,25.8801257 Z" id="Shape" fill="#3B5998" fill-rule="nonzero"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

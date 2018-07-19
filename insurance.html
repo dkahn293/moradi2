@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8' />
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+
+    <title>Insurance &middot; Frankel Dental</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+    <link rel='stylesheet' href='styles.css' />
+    <link rel='stylesheet' href='insurance-styles.css' />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+
+</head>
+
+<body>
+
+    <!-- info and nav bar start -->
+
+        <div class="info-bar">
+            <div class="info-bar-content-container">
+                <div class="call-number">Call (310) 398-6161</div>
+                <a class="call-now" href="tel:310-398-6161">
+                    <button class="book-button" type="button">
+                        <img src="./assets/phone.svg" height="15em"> Call now</button>
+                </a>
+                <div>or</div>
+                <a href="http://www.zocdoc.com/practice/meir-agaki-d-d-s-inc-9501?lock=true&isNewPatient=false&referrerType=Widget">
+                    <button class="book-button" type="button">Book online</button>
+                </a>
+            </div>
+        </div>
+
+    <nav class="navbar navbar-expand-md navbar-light bg-light ">
+        <div class="container">
+            <a class="navbar-brand" href="./home.html">
+                <img src="./assets/logo.svg">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav ml-md-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="./home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./about.html">Our Practice
+
+                        </a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="./services.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            Services
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="./services.html#general">General Dentistry</a>
+                            <a class="dropdown-item" href="./services.html#cosmetic">Cosmetic Dentistry</a>
+                            <a class="dropdown-item" href="./services.html#ortho">Orthodontics</a>
+                            <a class="dropdown-item" href="./services.html#peri">Periodontics</a>
+                            <a class="dropdown-item" href="./services.html#endo">Endodontics</a>
+                            <a class="dropdown-item" href="./services.html#surgery">Oral Surgery</a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            Financials
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="./insurance.html">Insurance</a>
+                            <a class="dropdown-item " href="./financing.html">Financing
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </div>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- info and nav bar end -->
+
+    <div class="jumbotron jumbotron-fluid hero-container">
+        <div class="container jumbo-content-container">
+            <h1 class="display-4">Insurance</h1>
+            <br>
+            <div class="jumbo-p-container">
+                <p>Our goal is to help remove the financial barriers so our patients can receive the dental care they need and desire. Many patients have some kind of dental insurance. Most dental insurance plans do not cover 100% of the cost of your treatment.
+                Insured patients will receive cost estimates broken down by covered and not covered costs. 
+                </p>
+                <p>Please bring your insurance card so we may promptly get you a breakdown of your benefits.</p>
+                
+            </div>
+            <a tabindex="0" class="input-group" data-container="body" data-toggle="popover" data-placement="top" data-content="If your insurance isn’t listed, please call us to confirm we are providers.">
+                <input type="text" class="form-control" id="myInput" onkeyup="myFunction()" placeholder="Search or browse accepted providors">
+            </a>
+        </div>
+        
+    </div>
+
+    <div class="insurance-search">
+
+
+    
+        
+        <ul class="list-group insurance-list" id="myUL">
+            <li class="list-group-item">
+                <h3>Aetna</h3>
+                <ul>
+                    <li>Aetna Advantage Plus Dental </li>
+                    <li>Aetna Advantage™ Dental</li>
+                    <li>Aetna Dental Access®/Vital Savings by Aetna</li>
+                    <li>Aetna HealthFund®/Aetna DentalFund</li>
+                    <li>Affordable Health Choices from Aetna</li>
+                    <li>Basic Dental</li>
+                    <li>Dental EPP</li>
+                    <li>Dental Maintenance Organization(DMO)</li>
+                    <li>Dental PPO/PDN</li>
+                    <li>Discount Dental</li>
+                    <li>Family Preventive </li>                   
+                </ul>
+            </li>
+        
+            <li class="list-group-item">
+                <h3>Aflac</h3>
+                <ul>
+                    <li>Aflac Dental</li>
+                </ul>
+
+            </li>
+            <li class="list-group-item">
+                <h3>AFTRA Health &amp; Retirement Funds</h3>
+                 
+                <ul>
+                    <li>Dental Program</li>
+                </ul>
+            </li>
+        
+            <li class="list-group-item">
+                <h3>AIG</h3>
+                <ul>
+                    <li>AIG Group Indemnity Dental Insurance</li>
+                    <li>AIG Group PPO Dental Insurance</li>
+                </ul>
+
+            </li>
+            <li class="list-group-item">
+                <h3>American Dental Professional Services</h3>
+                <ul>
+                    <li>PPO Network for Employer Groups</li>
+                </ul>
+
+            </li>
+            <li class="list-group-item">
+                <h3>Ameritas</h3>
+                <ul>
+                    <li>PPO Plan</li>
+                </ul>
+            
+            </li>
+            <li class="list-group-item">
+                <h3>Anthem Blue Cross Blue Shield</h3>
+                <ul>
+                    <li>Dental Blue 100 </li>
+                    <li>Dental Blue 200 </li>
+                    <li>Dental Blue 300 </li>
+                    <li>Dental Blue Complete 100/200/300 </li>
+                    <li>Dental PPO </li>
+                    <li>PPO </li>
+                    <li>Preventive/Preventive Plus Dental </li>
+                    <li>Tonik</li>
+                </ul>
+            
+            </li>
+            <li class="list-group-item">
+                <h3>Assurant Dental Employee Benefits</h3>
+                <ul>
+                    <li>Dental Health Alliance </li>
+                    <li>Dental Health Alliance Premiere </li>
+                    <li>United Dental Care</li>
+                </ul>
+            
+            </li>
+            <li class="list-group-item">
+                <h3>Blue Cross and Blue Shield of Massachusetts</h3>
+                <ul>
+                    <li>Dental Blue Indemnity </li>
+                    <li>Dental Blue Preventive </li>
+                    <li>Dental Blue Pro </li>
+                    <li>Dental Blue Select</li>
+                </ul>
+            
+            </li>
+            <li class="list-group-item">
+                <h3>Blue Cross Blue Shield</h3>
+                <ul>
+                    <li>BlueCard® PPO/EPO </li>
+                    <li>BlueCard® Traditional </li>
+                    <li>Federal Employee Program - Basic Option </li>
+                    <li>Federal Employee Program - Standard Option </li>
+                    <li>Medicare Advantage PPO</li>
+                </ul>
+            
+            </li>
+            <li class="list-group-item">
+                <h3>Blue Cross Blue Shield of Arizona</h3>
+                <ul>
+                    <li>BluePreferred Dental (PPO)</li>
+                    <li>DentalChoice</li>
+                </ul>
+            
+            </li>
+            <li class="list-group-item">
+                <h3>Blue Cross Blue Shield of Florida</h3>
+                <ul>
+                    <li>BlueDental Care Prepaid PI210, P210, P220, PS220 </li>
+                    <li>BlueDental Choice &amp; Choice Plus (PPO) </li>
+                    <li>BlueDental Choice Copayment (PPO) </li>
+                    <li>BlueOptions Health &amp; Dental - Dental </li>
+                    <li>BlueOptions Hospital Surgical Plus </li>
+                    <li>BlueSelect Hospital Surgical Plus </li>
+                    <li>Cover Florida </li>
+                    <li>GoBlue</li>
+                </ul>
+            
+            </li>
+            <li class="list-group-item">
+                <h3>Blue Cross Blue Shield of Georgia</h3>
+                <ul>
+                    <li>Individual/Family </li>
+                    <li>Large Group </li>
+                    <li>Senior </li>
+                    <li>Small Group </li>
+                    <li>SmileNet</li>
+                </ul>
+            </li>
+            <li class="list-group-item">
+                <h3>Blue Cross Blue Shield of Illinois</h3>
+                <ul>
+                    <li>BlueCare® Dental (DPPO)</li>
+                </ul>
+            
+            </li>
+            <li class="list-group-item">
+                <h3>Blue Cross Blue Shield of Kansas City</h3>
+                <ul>
+                    <li>Dental - Preferred Care (NA)</li>
+                    <li>Dental - Traditional (NA)</li>
+                </ul>
+            
+            </li>
+            <li class="list-group-item">
+                <h3>Blue Cross Blue Shield of Michigan</h3>
+                <ul>
+                    <li>Blue Dental Choice</li>
+                    <li>Community Dental </li>
+                    <li>Exclusive Dental </li>
+                    <li>Personal Dental </li>
+                    <li>Traditional Plus Dental </li>
+                    <li>Traditional Plus Preventive Dental</li>
+                </ul>
+            
+            </li>
+            <li class="list-group-item">
+                <h3>Blue Cross Blue Shield of Texas</h3>
+                <ul>
+                    <li>BlueCare Dental </li>
+                    <li>BlueCare Freedom Dental </li>
+                    <li>BlueChoice PPO Plan </li>
+                    <li>BlueChoice Solutions/Blue Precision </li>
+                    <li>DentaBlue </li>
+                    <li>Dental Indemnity USA</li>
+                </ul>
+            
+            </li>
+            <li class="list-group-item">
+                <h3>Blue Cross of California</h3>
+                <ul>
+                    <li>Dental Blue 100 </li>
+                    <li>Dental Blue 200 </li>
+                    <li>Dental Blue 300 </li>
+                    <li>Dental Blue Complete 100/200/300 </li>
+                    <li>Dental Net HMO </li>
+                    <li>Dental PPO </li>
+                    <li>Dental PPO (Wellpoint Employees only) </li>
+                    <li>Dental Select HMO</li>
+                </ul>
+            
+            </li>
+            <li class="list-group-item">
+                <h3>Blue Shield of California</h3>
+                <ul>
+                    <li>Dental HMO </li>
+                    <li>Dental PPO </li>
+                    <li>Federal Employee Health Benefit Program Access + HMO </li>
+                    <li>Federal Employee Health Benefit Program PPO</li>
+                </ul>
+            
+            </li>
+            <li class="list-group-item">
+                <h3>Cigna</h3>
+                <ul>
+                    <li>CIGNA Dental Care DHMO® </li>
+                    <li>CIGNA Dental EPO </li>
+                    <li>CIGNA Dental PPO </li>
+                    <li>CIGNA Traditional (Dental Indemnity) </li>
+                    <li>CIGNAFlex Advantage </li>
+                    <li>CIGNAPlus Savings </li>
+                    <li>Dental Care HMO </li>
+                    <li>Dental Care Value Plans </li>
+                    <li>Dental Choice </li>
+                    <li>Dental Core</li>
+                </ul>
+            
+            </li>
+            <li class="list-group-item">
+                <h3>CompBenefits</h3>
+                <ul>
+                    <li>PPO Plans</li>
+                    <li>UCR Plans</li>
+                </ul>
+            
+            </li>
+            <li class="list-group-item">
+                <h3>Connection Dental</h3>
+                <ul>
+                    <li>GEHA Connection Dental Federal</li>
+                </ul>
+            
+            </li>
+            <li class="list-group-item">
+                <h3>Delta Dental</h3>
+                <ul>
+                    <li>AARP Dental Insurance Plan </li>
+                    <li>Boeing </li>
+                    <li>Delta Dental of Wisconsin PPO </li>
+                    <li>Delta Dental of Wisconsin Premier </li>
+                    <li>Delta Dental Patient Direct </li>
+                    <li>Delta Dental PPO (formerly DeltaPreferred Option USA) </li>
+                    <li>Delta Dental PPO Plus Premier (formerly Delta Preferred Option Plus) </li>
+                    <li>Delta Dental PPO Value Plan (formerly Preferred One) </li>
+                    <li>Delta Dental Premier (formerly DeltaPremier USA) </li>
+                    <li>DeltaAdvantage </li>
+                    <li>DeltaCare USA </li>
+                    <li>DeltaCare USA Senior Plan </li>
+                    <li>The Value Plan</li>
+                </ul>
+            
+            </li>
+            <li class="list-group-item">
+                <h3>Dental Benefit Providers</h3>
+                <ul>
+                    <li>Dental Options PPO</li>
+                    <li>National PPO Network</li>
+                    <li>PPO</li>
+                </ul>
+            
+            </li>
+            <li class="list-group-item">
+                <h3>Dental Network of America</h3>
+                <ul>
+                    <li>Dental Preferred Provider Organization (DPPO) Network</li>
+                </ul>
+            
+            </li>
+            <li class="list-group-item">
+                <h3>Dentegra</h3>
+                <ul>
+                    <li>PPO</li>
+                </ul>
+            
+            </li>
+            <li class="list-group-item">
+                <h3>Excellus Blue Cross Blue Shield</h3>
+                <ul>
+                    <li>Dental Blue PPO</li>
+                    <li>Excellus BlueCross BlueShield Dental Network</li>
+                    <li>Prime Blue</li>
+                </ul>
+            
+            </li>
+            <li class="list-group-item">
+                <h3>First Dental Health</h3>
+                <ul>
+                    <li>FDH - PPO</li>
+                    <li>FDH - PPO PLUS</li>
+                </ul>
+            
+            </li>
+            <li class="list-group-item">
+                <h3>GE Consumer Finance</h3>
+                <ul>
+                    <li>GE Consumer Finance Wellness Program</li>
+                </ul>
+            
+            </li>
+            <li class="list-group-item">
+                <h3>Great West Healthcare</h3>
+                <ul>
+                    <li>Dental + </li>
+                    <li>PPO</li>
+                </ul>
+
+            </li>
+            <li class="list-group-item">
+                <h3>Guardian</h3>
+                <ul>
+                    <li>Dental Options </li>
+                    <li>DentalGuard Preferred </li>
+                    <li>DentalGuard Preferred Select </li>
+                    <li>Diversified Dental </li>
+                    <li>Managed Dental Care - For CA based groups</li>
+                </ul>
+            
+            </li>
+            <li class="list-group-item">
+                <h3>Health Net</h3>
+                <ul>
+                    <li>Health Net Dental</li>
+                </ul>
+            
+            </li>
+            <li class="list-group-item">
+                <h3>Humana Dental</h3>
+                <ul>
+                    <li>PPO/Traditional Preferred</li>
+                </ul>
+            
+            </li>
+            <li class="list-group-item">
+                <h3>Liberty Dental</h3>
+                <ul>
+                    <li>DentalGuard Preferred Select</li>
+                    <li>PPO Nevada</li>
+                </ul>
+            
+            </li>
+            <li class="list-group-item">
+                <h3>MetLife</h3>
+                <ul>
+                    <li>MetLife Preferred Dentist Program (PDP)</li>
+                </ul>
+            
+            </li>
+            <li class="list-group-item">
+                <h3>Mutual of Omaha</h3>
+                <ul>
+                    <li>DentaBenefits</li>
+                </ul>
+            
+            </li>
+            <li class="list-group-item">
+                <h3>Principal Financial Group</h3>
+                <ul>
+                    <li>Preferred Provider Organization (PPO)</li>
+                </ul>
+            
+            </li>
+            <li class="list-group-item">
+                <h3>SafeGuard</h3>
+                <ul>
+                    <li>Classic Choice</li>
+                    <li>Premier Choice</li>
+                </ul>
+            
+            </li>
+            <li class="list-group-item">
+                <h3>Sun Life Financial</h3>
+                <ul>
+                    <li>Connection Dental </li>
+                    <li>DenteMax </li>
+                    <li>First Dental Health </li>
+                    <li>Premier Dental</li>
+                </ul>
+            
+            </li>
+            <li class="list-group-item">
+                <h3>United Concordia</h3>
+                <ul>
+                    <li>Active Duty Dental Program (ADDP) </li>
+                    <li>Automotive Network </li>
+                    <li>Concordia Access </li>
+                    <li>Concordia Advantage </li>
+                    <li>Concordia Advantage Plus </li>
+                    <li>Concordia Choice </li>
+                    <li>Concordia EPO </li>
+                    <li>Concordia Flex </li>
+                    <li>Concordia Plus </li>
+                    <li>Concordia Preferred </li>
+                    <li>TRICARE Dental Program (TDP)</li>
+                </ul>
+            
+            </li>
+            <li class="list-group-item">
+                <h3>United Healthcare</h3>
+                <ul>
+                    <li>Dental Options PPO</li>
+                    <li>Managed Indemnity</li>
+                </ul>
+        </ul>
+        <br>
+        
+    </div>
+
+
+
+
+
+<div class="footer-container">
+    <div class="footer-top">
+        <h4>
+            Call (310) 398-6161 or
+            <a href="http://www.zocdoc.com/practice/meir-agaki-d-d-s-inc-9501?lock=true&isNewPatient=false&referrerType=Widget">
+                <button class="book-button book-button-footer" type="button">Book online</button>
+            </a>
+        </h4>
+    </div>
+    <div class="footer-middle middle-top">
+        <h6>
+            <img class="card-icon" src="assets/location-icon-white.svg" height="30px">Location</h6>
+        <p>9201 Venice Blvd.
+            <br> Los Angeles, CA 90034</p>
+    </div>
+    <div class="footer-middle middle-top">
+        <h6>
+            <img class="card-icon" src="assets/clock-icon-white.svg" height="25px">Hours</h6>
+        <p>Monday-Thursday: 9am-6pm
+            <br> Friday: 9am-5pm</p>
+    </div>
+    <div class="footer-middle">
+        <h6>Follow &amp; Rate us</h6>
+        <a href="https://www.facebook.com/moradiortho/">
+            <img src="assets/facebook-logo-button.svg">
+        </a>
+        <a href="https://www.yelp.com/biz/frankel-dental-group-los-angeles">
+            <img src="assets/yelp-logo.svg">
+        </a>
+        <a href="#">
+            <img src="assets/google-plus-logo-button.svg">
+        </a>
+        <a href="#">
+            <img src="assets/instagram-logo.svg">
+        </a>
+    </div>
+
+    <div class="footer-bottom">
+        <p>Copyright &copy;2018 Frankel Dental Group</p>
+        <p>
+            <a style="color: inherit;" tabindex="0" data-container="body" data-toggle="popover" data-placement="top" data-content="Phone icon by Princes Kumudawati from the
+            Noun Project. Teeth Icons Created by Nikita Kozin from the Noun Project. Location icon by Trendy from the Noun Project. Clock
+            icon by Zaff Studio from the Noun Project. Facebook, Google, Instagram icons made by Bogdan Rosu from www.flaticon.com. Yelp
+            Icon made by Freepik from www.flaticon.com. ">Attributions</a>
+        </p>
+    </div>
+
+
+</div>
+
+    
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+
+    <script>
+        function myFunction() {
+            var input, filter, ul, li, h3, i, text, child_list;
+            input = document.getElementById("myInput");
+            filter = input.value.toUpperCase();
+            ul = document.getElementById("myUL");
+            li = ul.getElementsByClassName("list-group-item");
+            for (i = 0; i < li.length; i++) {
+                h3 = li[i].getElementsByTagName("h3")[0];
+                child_list = li[i].getElementsByTagName("ul")[0];
+                $(child_list).each(function (index) {
+                    text += $(this).text().toUpperCase();
+                });
+                console.log(child_list);
+
+                text += h3.innerHTML.toUpperCase();
+
+                console.log(text);
+
+
+                if (text.indexOf(filter) > -1) {
+                    li[i].style.display = "";
+                } else {
+                    li[i].style.display = "none";
+                }
+                text = "";
+            }
+        }
+    </script>
+
+
+            <script src="./scripts.js"></script>
+
+</body>
+
+</html>

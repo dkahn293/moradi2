@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,800');
+
+.jumbo-p-container {
+    max-width: 50em;
+    margin: 1em;
+}
+
+.jumbo-content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.jumbotron {
+    /* Rectangle: */
+    background-image: linear-gradient(-136deg, #51DDD3 0%, #79B7EE 100%);
+    color: white;
+    padding-top: 7em;
+}
+
+
+.insurance-search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1em;
+    min-height: 30em;
+}
+
+.insurance-list {
+    width: 100%;
+    /* min-width: ; */
+}
+
+
+
+.input-group, input {
+    max-width: 35em;
+
+}
+input {
+        text-decoration: none;
+
+}
+
+
+.list-group-item {
+    display: flex;
+    flex-direction: column;
+    padding: 1em 3em;
+}
+
+.list-group-item > img {
+    align-self: center;
+    margin-bottom: 1em;
+}
+
+.jumbo-p-container > p {
+ margin: 1em 3em 1em 3em;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.5em;
+    line-height: 1.75em;
+    font-weight: 300;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+h3 {
+        font-size: 1.3em;    
+    /* line-height: 1.75em; */
+
+    font-weight: 500;
+    color: slategray;
+}
+
+@media only screen and (min-width: 426px) {
+    h3 {
+            font-size: 1.8em;    
+        /* line-height: 1.75em; */
+
+    }
+
+}
+
+
+@media only screen and (min-width: 560px) and (max-width: 900px){
+    .insurance-list {
+        width: 75%;
+        /* min-width: 75%; */
+    /* min-width: ; */
+    }
+}
+
+@media only screen and (min-width: 901px) {
+    .insurance-list {
+        width: 50%;
+        /* min-width: 75%; */
+    /* min-width: ; */
+    }
+}
+
+@media only screen and (max-width: 770px) {
+
+.jumbo-p-container > p {
+    font-size: 1.25em;
+    margin: 0 1em 1em 1em;
+
+
+}
+    
+
+}
+
+.form-control {
+    border-radius: 100px;
+    border: 1.5px solid white;
+    background-color: transparent;
+
+/* box-shadow: inset 0 1px 13px 0 #408AA4; */
+border-radius: 100px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 200;
+    font-size: 1.3em;
+    text-decoration: none;
+
+
+}
+
+.input-group, .input-group:focus, .input-group:hover {
+    text-decoration: none;
+    color: white;
+    margin-top: 1em;
+
+}
+
+.form-control, .form-control:focus, .form-control::placeholder, .form-control:hover {
+    background-color:transparent;
+        text-decoration: none;
+    color: white;
+}
+
+.list-group-item {
+    border-left: none;
+    border-right: none;
+}
+
+.list-group-item:first-of-type {
+    border-top: none;
+}

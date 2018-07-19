@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,800');
+
+.navbar .nav-link{
+    color: rgb(86, 98, 110) !important;
+}
+
+
+.hero-container > .service-section{
+    padding-top: 3em;
+}
+.services-container {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 200;
+
+}
+
+.service-desction {
+    margin-top: 1.5em;
+    padding: 0 1.5em;
+    font-size: 1.5em;
+    line-height: 1.75em;
+    font-weight: 300;
+    color: lightslategray;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+
+    font-size: 3em;
+}
+
+
+.services-header {
+color: #00AEDE;
+}
+
+.services-list {
+    list-style: none;
+}
+
+.services-list > li{
+    display:inline;
+}
+
+.services-button {
+    border-radius: 100px;
+    border: 1.5px solid #00AEDE;
+    color:  #00AEDE;
+    
+    background-color: transparent;
+    margin-top: 1.5em;
+    margin-right: .75em;
+    font-weight: 300;
+    font-size: 1.2em;
+
+}
+
+.services-button:hover {
+    background-color: #00AEDE;
+    color: white;
+
+}
+
+.services-button:hover .service-popup {    /* This used to be `.features-menu` */
+  display: flex;                    /* Leave everything else alone */
+  /* flex-direction: column;
+  background: #B2D6FF;
+  ... */
+}
+
+.service-popup {
+    position: absolute;
+    /* Rectangle 6: */
+    background: #FFFFFF;
+    box-shadow: 0 2px 36px 0 rgba(125,125,125,0.50);
+    border-radius: 29px;
+    width: 40em;
+    padding: 5em;
+    display: none;
+
+}
+
+.service-section {
+    margin: 0 auto;
+    max-width: 1000px;
+   
+}
+
+.odd {
+    background: rgba(30,169,218,0.30);
+     padding: 3em 0 3em 0;
+}
+.even {
+         padding: 2em 0 2.5em 0;
+
+}
+
+.jumbotron {
+    margin-bottom: 0;
+    min-height: 700px;
+    background-image: url("./assets/checking-teeth.JPG");
+    background-color: transparent;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+ol {
+    list-style-type: none;
+}
+
+ol > li {
+    margin-bottom: 0.5em;
+}
+
+
+@media only screen and (max-width: 500px) {
+h2 {
+    /* font-size: 2em; */
+}
+
+.section-title {
+    flex-direction: column;
+}
+
+.section-title > h2 {
+    text-align: center;
+}
+
+.section-title > img {
+    margin-bottom: 1em;
+}
+
+.services-button {
+    /* font-size: 0.75em; */
+}
+
+
+}
+
+

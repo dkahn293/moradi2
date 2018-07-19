@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button:focus {
+    outline:0;
+}
+
+.info-bar {
+    height: 2em;
+    width: 100%; 
+    background-color: #009CD1;
+    /* Rectangle 5: */
+    /* background-image: linear-gradient(42deg, #009CD1 0%, #AAE0F2 100%); */
+    display: block;
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    font-family: 'Source Sans Pro', sans-serif;
+
+
+
+}
+
+.info-bar-content-container {
+    flex-basis: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+
+/*new*/
+
+.dropdown-item {
+
+}
+.dropdown-item:active {
+    background: #009CD1;
+    color: white !important;
+}
+
+
+.nav-link, .dropdown-item {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: slategray !important;
+
+}
+
+
+.nav-item {
+    margin-right: 3em !important;
+}
+
+
+
+
+.book-button {
+    border-radius: 100px;
+    border: 1.5px solid white;
+    color:  white;
+    
+    background-color: transparent;
+    padding: 0 .7em 0 .7em;
+}
+
+.book-button:hover {
+    border: 1.5px solid white;
+    background-color: white;
+    color: #009CD1;
+    cursor: pointer;
+}
+
+.book-button:active {
+    border: 1.5px solid white;
+    background-color: white;
+}
+
+.dropdown-item:hover {
+    /* background-color:  */
+}
+
+.card-icon {
+    margin-right: 1em;
+}
+
+.book-button-footer:hover {
+    color: #00455E;
+}
+.footer-container {
+    padding: 1em;
+    color: white;
+    background-color: #00455E;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+
+
+        font-family: 'Source Sans Pro', sans-serif;
+
+
+}
+.footer-container > div {
+            margin-top: 2em;
+
+}
+
+.footer-top {
+    width: 100%;
+}
+.footer-middle {
+    width: 33.3%;
+}
+
+.footer-bottom { 
+    color:lightblue;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-top > h4 {
+    
+}
+
+.footer-bottom > p {
+    margin: 1em;
+
+}
+
+
+button {
+  outline: none; 
+
+}
+
+
+
+@media only screen and (min-width: 500px) and (max-width: 960px) {
+    .footer-middle {
+        width: 100%;
+    }
+    .middle-top {
+        width: 50%;
+    }
+
+}
+@media only screen and (max-width: 500px) {
+
+    .footer-container {
+        flex-direction: column;
+    }
+
+    .footer-container > div {
+        width: auto;
+    }
+
+    
+
+}
+
+
+@media only screen and (min-width: 768px) {
+.navbar {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: transparent !important;
+      transition: all .15s ease-in-out;
+
+
+
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    .navbar > .container {
+        margin-right: 0;
+        margin-left: 0;
+        width: 100%;
+        max-width: 100% !important;
+        /* display: flex;
+        justify-content: space-between; */
+    }
+    .nav-item:last-of-type {
+        margin-right: 0 !important;
+    }
+
+}
+.navbar:hover {
+    background-color: #F7F8F9 !important;
+    /* Rectangle 13: */
+/* Rectangle 13: */
+box-shadow: 0 3px 6px 0 rgba(0,0,0,0.21);}
+.navbar:hover .nav-link{
+    color: slategray !important;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+
+}
+
+
+.hero-container {
+  position: relative;
+  top: -100px;
+  margin-bottom: -100px;
+  /* z-index: 0; */
+  
+}
+
+.navbar {
+    transition: all .15s ease-in-out;
+    z-index: 2;
+
+}
+
+.fixed {
+	position: fixed;
+	top: 0;
+    width: 100%;
+    background-color: #F7F8F9 !important;
+    color: slategray;
+    /* Rectangle 13: */
+/* Rectangle 13: */
+    box-shadow: 0 3px 6px 0 rgba(0,0,0,0.21);
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    z-index: 1;
+}
+
+.fixed-child {
+    color: slategray !important;
+
+}
+
+/* not working for some reason */
+
+/* .modal {
+    z-index: 2 !important;
+} */
+.modal-dialog {
+    z-index: 5 !important;
+}
+.modal-backdrop {
+    /* position: relative; */
+    z-index: 3 ;
+    background-image: linear-gradient(-136deg, rgba(85,171,165,0.60) 0%, rgba(87,132,171,0.60) 100%);
+}
+
+
+@media only screen and (max-width: 425px) {
+.call-number {
+    display:none;
+}
+}
+
+@media only screen and (min-width: 426px) {
+.call-now {
+    display:none;
+}
+}

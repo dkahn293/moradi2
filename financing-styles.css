@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,800');
+
+.navbar .nav-link{
+    color: rgb(86, 98, 110) !important;
+}
+.credit-care-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.credit-care-container > img {
+    max-width: 503px;
+    margin: 3em auto 1em auto;
+}
+
+.credit-care-container > p {
+    margin: 2em 3em 3em 3em;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.5em;
+    line-height: 1.75em;
+    font-weight: 300;
+    color: lightslategray;
+
+}
+
+@media only screen and (max-width: 500px) {
+.credit-care-container > img {
+    max-width: 300px;
+    margin-top: 3em;
+}
+
+.credit-care-container > p {
+        font-size: 1.25em;
+
+}
+    
+
+}
+

@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,800');
+
+.navbar .nav-link{
+    color: rgb(86, 98, 110) !important;
+}
+
+.top-level-content-container p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.5em;
+    line-height: 1.75em;
+    font-weight: 300;
+    
+}
+
+h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+
+    font-size: 3em;
+    font-weight: 300;
+  
+}
+
+h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+
+    font-size: 3em;    
+    /* line-height: 1.75em; */
+
+    font-weight: 800;
+    color: slategrey;
+}
+
+h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+
+    font-size: 3em;    
+    line-height: 1.75em;
+
+    font-weight: 300;
+    color: #1EA9DA;
+    text-align: center;
+}
+
+.sections-container p {
+    color: lightslategray;
+
+}
+
+.hero-image {
+  background-image: url("./assets/staff.JPG");
+  height: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* .jumbotron {
+    background-image: url();
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+        /* min-height: 500px; */
+        /* background-position-y: -200px; */
+
+.even-section-container {
+        padding-top: 6em ;
+        padding-bottom: 6em ;
+        
+
+}
+
+.odd-section-container:last-of-type {
+    padding-bottom: 6em ;
+}
+
+.about-section {
+    max-width: 1250px;
+    display: flex;
+    margin: 0 auto;
+    text-align: left;
+
+}
+
+.even {
+ flex-direction: row-reverse; 
+}
+
+.about-section > div {
+    width: 50%;
+    margin:  0 2.5em;
+   display: flex;
+justify-content: center; /* align horizontal */
+align-items: center; /* align vertical */
+flex-direction: column;
+
+
+}
+
+.odd-image {
+        -ms-transform: rotate(3deg); /* IE 9 */
+    -webkit-transform: rotate(3deg); /* Safari 3-8 */
+    transform: rotate(3deg);
+    
+}
+
+.even-image {
+        -ms-transform: rotate(-3deg); /* IE 9 */
+    -webkit-transform: rotate(-3deg); /* Safari 3-8 */
+    transform: rotate(-3deg);
+    
+}
+
+
+.our-practice {
+        background-image: linear-gradient(-136deg, #51DDD3 0%, #79B7EE 100%);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 4em;
+    padding-bottom: 4em;
+    
+}
+
+.our-practice > h1 {
+    text-align: center;
+}
+
+.our-practice > p {
+    max-width: 35em;
+    margin: 1em;
+}
+
+.sections-container > h2 {
+    text-align: center;
+    margin: 2em auto ;
+}
+@media only screen and (max-width: 850px) {
+
+    .top-level-content-container {
+        font-size: .8em;
+    }
+
+
+    .about-section {
+        flex-direction: column-reverse; 
+    }
+
+    .about-section > div {
+        width: 100%;
+        margin:  0;
+
+    }
+
+    .about-section > div > h3 {
+        margin-top: 2em;
+    }
+
+    .about-section > div > p {
+        margin: 1em;
+    }
+
+
+    .sections-container > img {
+        -ms-transform: none; /* IE 9 */
+        -webkit-transform: none; /* Safari 3-8 */
+        transform: none;
+        margin-bottom: 2em;
+    }
+
+    .odd-image {
+        -ms-transform: rotate(0deg); /* IE 9 */
+        -webkit-transform: rotate(0deg); /* Safari 3-8 */
+        transform: rotate(0deg);
+    
+    }
+
+    .even-image {
+            -ms-transform: rotate(0deg); /* IE 9 */
+        -webkit-transform: rotate(0deg); /* Safari 3-8 */
+        transform: rotate(0deg);
+        
+    }
+
+
+}
+
+
+@media only screen and (min-width: 600px) and (max-width: 850px)  {
+
+    .about-section > div {
+        text-align: center;
+        width: 80%;
+        margin:  0 auto;
+
+    }
+
+    .about-section > div > p {
+        text-align: left;
+    }
+    .top-level-content-container {
+        font-size: 1em;
+        /* background-color: #51DDD3; */
+    }
+}
+
+
+
+@media only screen and (max-width: 760px) {
+    .hero-container {
+        top: -30px;
+        margin-bottom: -30px;
+    }
+}
+
+
+
+@media only screen and (min-width: 1100px) {
+    .hero-container {
+        top: -175px;
+        margin-bottom: -175px;
+    }
+}
