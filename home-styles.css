@@ -104,10 +104,10 @@ text-align: left;
 .info-card {
     /* Rectangle 3: */
     border-radius: 25px;
-    /* background-image: -webkit-linear-gradient(top, #009CD1, #009CD1 35%, transparent 35%, transparent 100%);
-    background-image: linear-gradient(top, #009CD1, #009CD1 35%, transparent 35%, transparent 100%); */
+    background-image: -webkit-linear-gradient(top, #009CD1, #009CD1 35%, transparent 35%, transparent 100%);
+    background-image: linear-gradient(top, #009CD1, #009CD1 35%, transparent 35%, transparent 100%);
 
-    background-image: #009CD1;
+    /* background-image: #009CD1; */
     -webkit-box-shadow: 0 2px 36px 0 rgba(125,125,125,0.50);
             box-shadow: 0 2px 36px 0 rgba(125,125,125,0.50);
     
