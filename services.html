@@ -11,7 +11,7 @@
         crossorigin="anonymous">
     <link rel='stylesheet' href='services-styles.css' />
     <link rel='stylesheet' href='styles.css' />
-        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122677745-1"></script>
     <script>
@@ -26,74 +26,75 @@
 
 <body>
     <!-- info and nav bar start -->
-
-    <div class="info-bar">
-        <div class="info-bar-content-container">
-            <div class="call-number">Call (310) 398-6161</div>
-            <a class="call-now" href="tel:310-398-6161">
-                <button class="book-button" type="button">
-                    <img src="./assets/phone.svg" height="15em"> Call now</button>
-            </a>
-            <div>or</div>
-            <a href="http://www.zocdoc.com/practice/meir-agaki-d-d-s-inc-9501?lock=true&isNewPatient=false&referrerType=Widget">
-                <button class="book-button" type="button">Book online</button>
-            </a>
-        </div>
-    </div>
-
-    <nav class="navbar navbar-expand-md navbar-light bg-light ">
-        <div class="container">
-            <a class="navbar-brand" href="./home.html">
-                <img src="./assets/logo.svg">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02"
-                aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                <ul class="navbar-nav ml-md-auto">
-                    <li class="nav-item ">
-                        <a class="nav-link" href="./home.html">Home</a>
-                    </li>
-                    <li class="nav-item ">
-                        <a class="nav-link" href="./about.html">Our Practice
-
-                        </a>
-                    </li>
-
-                    <li class="nav-item dropdown active">
-                        <a class="nav-link dropdown-toggle" href="./services.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
-                            aria-expanded="false">
-                            <span class="sr-only">(current)</span>
-                            Services
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="./services.html#general">General Dentistry</a>
-                            <a class="dropdown-item" href="./services.html#cosmetic">Cosmetic Dentistry</a>
-                            <a class="dropdown-item" href="./services.html#ortho">Orthodontics</a>
-                            <a class="dropdown-item" href="./services.html#peri">Periodontics</a>
-                            <a class="dropdown-item" href="./services.html#endo">Endodontics</a>
-                            <a class="dropdown-item" href="./services.html#surgery">Oral Surgery</a>
-                        </div>
-                    </li>
-
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Financials
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="./insurance.html">Insurance</a>
-                            <a class="dropdown-item" href="./financing.html">Financing</a>
-                        </div>
-                    </li>
-
-                </ul>
-
+    <header>
+        <section class="info-bar">
+            <div class="info-bar-content-container">
+                <div class="call-number">Call
+                    <a href="tel:310-398-6161">(310) 398-6161</a>
+                </div>
+                <a class="call-now" href="tel:310-398-6161">
+                    <button class="book-button" type="button">
+                        <img src="./assets/phone.svg" height="15em" alt="phone icon"> Call now</button>
+                </a>
+                <div>or</div>
+                <a href="http://www.zocdoc.com/practice/meir-agaki-d-d-s-inc-9501?lock=true&isNewPatient=false&referrerType=Widget">
+                    <button class="book-button" type="button">Book online</button>
+                </a>
             </div>
-        </div>
-    </nav>
+        </section>
+        <nav class="navbar navbar-expand-md navbar-light bg-light ">
+            <div class="container">
+                <a class="navbar-brand" href="./home.html">
+                    <img src="./assets/logo.svg" alt="frankel dental group logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav ml-md-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="./home.html">Home
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./about.html">Our Practice</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="./services.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
+                                Services
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <span class="sr-only">(current)</span>
+                                <a class="dropdown-item" href="./services.html#general">General Dentistry</a>
+                                <a class="dropdown-item" href="./services.html#cosmetic">Cosmetic Dentistry</a>
+                                <a class="dropdown-item" href="./services.html#ortho">Orthodontics</a>
+                                <a class="dropdown-item" href="./services.html#peri">Periodontics</a>
+                                <a class="dropdown-item" href="./services.html#endo">Endodontics</a>
+                                <a class="dropdown-item" href="./services.html#surgery">Oral Surgery</a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Financials
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="./insurance.html">Insurance</a>
+                                <a class="dropdown-item" href="./financing.html">Financing</a>
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </header>
 
     <!-- info and nav bar end -->
 
@@ -107,8 +108,8 @@
 
     <!-- Services Start here -->
 
-    <div class="services-container">
-        <div class="odd hero-container" id="general">
+    <section class="services-container">
+        <section class="odd hero-container" id="general">
 
             <div class="my-5 service-section">
                 <div class="section-title d-flex justify-content-center align-items-center">
@@ -251,9 +252,10 @@
                                                 are hard to clean and are very susceptible to decay. A sealant protects the
                                                 tooth by sealing deep grooves, creating a smooth, easy to clean surface.</p>
                                             <p>
-                                                <em>Sealants are easily applied by your dentist or dental hygienist and the process takes only a couple of minutes per tooth.</em>
+                                                <em>Sealants are easily applied by your dentist or dental hygienist and the process
+                                                    takes only a couple of minutes per tooth.</em>
 
-                                                </p>
+                                            </p>
 
                                         </div>
 
@@ -299,9 +301,9 @@
                     </ul>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <div class="even" id="cosmetic">
+        <section class="even" id="cosmetic">
             <div class="my-5 service-section">
                 <div class="section-title d-flex justify-content-center align-items-center">
                     <img src="./assets/cosmetic.svg" class="mr-3">
@@ -326,21 +328,28 @@
                                         <div class="modal-body">
                                             <p> Tooth whitening (or bleaching) is a simple, non-invasive dental treatment used
                                                 to change the color of natural tooth enamel and is an ideal way to enhance
-                                                the beauty of your smile. There are two popular teeth whitening options: </p>
-
-                                                <p>
-
-                                                    <ol>
-                                                        <li>
-                                                            <strong>In-office teeth whitening:</strong> Produces a significant color change in your teeth in a short amount of time, usually within an hour. The procedure is done at the dentist's office by applying a high-concentration peroxide gel on the teeth after they have been protected with a special shield.</li>
-                        
-                                                        <li>
-                                                            <strong>Take home whitening kits: </strong> The strength of the gel used in these kits is lower than that used for in-office
-                                                            bleaching, and thus the gel can be applied for longer periods of time. Usually the trays are worn a couple hours a day or
-                                                            overnight for a few days or weeks depending on the product.</li>
-                                                    
-                                                    </ol>
+                                                the beauty of your smile. There are two popular teeth whitening options:
                                                 </p>
+
+                                            <p>
+
+                                                <ol>
+                                                    <li>
+                                                        <strong>In-office teeth whitening:</strong> Produces a significant color
+                                                        change in your teeth in a short amount of time, usually within an
+                                                        hour. The procedure is done at the dentist's office by applying a
+                                                        high-concentration peroxide gel on the teeth after they have been
+                                                        protected with a special shield.</li>
+
+                                                    <li>
+                                                        <strong>Take home whitening kits: </strong> The strength of the gel used
+                                                        in these kits is lower than that used for in-office bleaching, and
+                                                        thus the gel can be applied for longer periods of time. Usually the
+                                                        trays are worn a couple hours a day or overnight for a few days or
+                                                        weeks depending on the product.</li>
+
+                                                </ol>
+                                            </p>
 
                                         </div>
 
@@ -544,9 +553,9 @@
                     </ul>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <div class="odd" id="ortho">
+        <section class="odd" id="ortho">
             <div class="my-5 service-section">
                 <div class="section-title d-flex justify-content-center align-items-center">
                     <img src="./assets/ortho.svg" class="mr-3">
@@ -620,7 +629,8 @@
                                             <p>
                                                 <em>
                                                     A typical Invisalign case takes about a year from start to finish. You’ll see your doctor every month or two to see how you’re
-                                                    progressing.</em>
+                                                    progressing.
+                                                </em>
                                             </p>
 
                                         </div>
@@ -720,9 +730,9 @@
                 </div>
             </div>
 
-        </div>
+        </section>
 
-        <div class="even" id="peri">
+        <section class="even" id="peri">
             <div class="my-5 service-section">
                 <div class="section-title d-flex justify-content-center align-items-center">
                     <img src="./assets/peri.svg" class="mr-3">
@@ -875,9 +885,9 @@
                     </ul>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <div class="odd" id="endo">
+        <section class="odd" id="endo">
             <div class="my-5 service-section">
                 <div class="section-title d-flex justify-content-center align-items-center">
                     <img src="./assets/endo.svg" class="mr-3">
@@ -954,9 +964,9 @@
                     </ul>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <div class="even" id="surgery">
+        <section class="even" id="surgery">
             <div class=" my-5 service-section">
                 <div class="section-title d-flex justify-content-center align-items-center">
                     <img src="./assets/surgery.svg" class="mr-3">
@@ -1054,8 +1064,8 @@
                                                     </li>
                                                     <li>
                                                         <strong>Canines play a vital role in the “biting” mechanism of the teeth.</strong>
-                                                        They touch first when the jaw closes, and guide the other teeth into
-                                                        position.</li>
+                                                        They touch first when the jaw closes, and guide the other teeth into position.
+                                                    </li>
                                                     <li>
                                                         <strong>Canine teeth are essential to alignment and function your front teeth</strong>.
                                                         They therefore greatly affect the function and aesthetic appearance
@@ -1107,62 +1117,65 @@
                     </ul>
                 </div>
             </div>
+        </section>
+
+    </section>
+
+    <footer class="footer-container">
+        <div class="footer-top">
+            <h4>
+                Call
+                <a href="tel:310-398-6161">(310) 398-6161</a> or
+                <a href="http://www.zocdoc.com/practice/meir-agaki-d-d-s-inc-9501?lock=true&isNewPatient=false&referrerType=Widget">
+                    <button class="book-button book-button-footer" type="button">Book online</button>
+                </a>
+            </h4>
+        </div>
+        <div class="footer-middle middle-top">
+            <h6>
+                <img class="card-icon" src="assets/location-icon-white.svg" height="30px" alt="location pin icon">Location</h6>
+            <a href="https://www.google.com/maps/place/Frankel+Dental+Group/@34.026715,-118.3960347,17z/data=!4m5!3m4!1s0x0:0x4079e36494d3c175!8m2!3d34.0267149!4d-118.3938459">9201 Venice Blvd.
+                <br> Los Angeles, CA 90034</a>
+        </div>
+        <div class="footer-middle middle-top">
+            <h6>
+                <img class="card-icon" src="assets/clock-icon-white.svg" height="25px" alt="clock icon">Hours</h6>
+            <p>Monday-Thursday: 9am-6pm
+                <br> Friday: 9am-5pm</p>
+            <meta itemprop="openingHours" content="Mo-Th 9:00-18:00" />
+            <meta itemprop="openingHours" content="Fr 9:00-17:00" />
+        </div>
+        <div class="footer-middle">
+            <h6>Follow &amp; Rate us</h6>
+            <a href="https://www.facebook.com/moradiortho/">
+                <img src="assets/facebook-logo-button.svg" alt="facebook">
+            </a>
+            <a href="https://www.yelp.com/biz/frankel-dental-group-los-angeles">
+                <img src="assets/yelp-logo.svg" alt="yelp">
+            </a>
+            <a href="https://www.google.com/search?q=frankel+dental+group">
+                <img src="assets/google-plus-logo-button.svg" alt="google">
+            </a>
+            <a href="https://www.instagram.com/moradiorthodontics/">
+                <img src="assets/instagram-logo.svg" alt="instagram">
+            </a>
         </div>
 
-    </div>
-
-<div class="footer-container">
-    <div class="footer-top">
-        <h4>
-            Call (310) 398-6161 or
-            <a href="http://www.zocdoc.com/practice/meir-agaki-d-d-s-inc-9501?lock=true&isNewPatient=false&referrerType=Widget">
-                <button class="book-button book-button-footer" type="button">Book online</button>
-            </a>
-        </h4>
-    </div>
-    <div class="footer-middle middle-top">
-        <h6>
-            <img class="card-icon" src="assets/location-icon-white.svg" height="30px">Location</h6>
-        <p>9201 Venice Blvd.
-            <br> Los Angeles, CA 90034</p>
-    </div>
-    <div class="footer-middle middle-top">
-        <h6>
-            <img class="card-icon" src="assets/clock-icon-white.svg" height="25px">Hours</h6>
-        <p>Monday-Thursday: 9am-6pm
-            <br> Friday: 9am-5pm</p>
-    </div>
-    <div class="footer-middle">
-        <h6>Follow &amp; Rate us</h6>
-        <a href="https://www.facebook.com/moradiortho/">
-            <img src="assets/facebook-logo-button.svg">
-        </a>
-        <a href="https://www.yelp.com/biz/frankel-dental-group-los-angeles">
-            <img src="assets/yelp-logo.svg">
-        </a>
-        <a href="#">
-            <img src="assets/google-plus-logo-button.svg">
-        </a>
-        <a href="#">
-            <img src="assets/instagram-logo.svg">
-        </a>
-    </div>
-
-    <div class="footer-bottom">
-        <p>Copyright &copy;2018 Frankel Dental Group</p>
-        <p>
-            <a style="color: inherit;" tabindex="0" data-container="body" data-toggle="popover" data-placement="top" data-content="Phone icon by Princes Kumudawati from the
+        <div class="footer-bottom">
+            <p>Copyright &copy;2018 Frankel Dental Group</p>
+            <p>
+                <a style="color: inherit;" tabindex="0" data-container="body" data-toggle="popover" data-placement="top" data-content="Designed and coded by David Kahn. Phone icon by Princes Kumudawati from the
             Noun Project. Teeth Icons Created by Nikita Kozin from the Noun Project. Location icon by Trendy from the Noun Project. Clock
             icon by Zaff Studio from the Noun Project. Facebook, Google, Instagram icons made by Bogdan Rosu from www.flaticon.com. Yelp
             Icon made by Freepik from www.flaticon.com. ">Attributions</a>
-        </p>
+            </p>
+        </div>
+
+
+    </footer>
+
+    <div class="fb-customerchat" page_id="696409010409632">
     </div>
-
-
-</div>
-
-<div class="fb-customerchat" page_id="696409010409632">
-</div>
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -1174,25 +1187,25 @@
 
     <script src="./scripts.js"></script>
 
-<script>
-    window.fbAsyncInit = function () {
-        FB.init({
-            appId: '252416415554866',
-            autoLogAppEvents: true,
-            xfbml: true,
-            version: 'v3.0'
-        });
-    };
+    <script>
+        window.fbAsyncInit = function () {
+            FB.init({
+                appId: '252416415554866',
+                autoLogAppEvents: true,
+                xfbml: true,
+                version: 'v3.0'
+            });
+        };
 
-    (function (d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) { return; }
-        js = d.createElement(s); js.id = id;
-        js.src = "https://connect.facebook.net/en_US/sdk.js";
-        fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) { return; }
+            js = d.createElement(s); js.id = id;
+            js.src = "https://connect.facebook.net/en_US/sdk.js";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
 
-</script>
+    </script>
 </body>
 
 </html>

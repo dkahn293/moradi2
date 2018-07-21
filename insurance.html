@@ -27,102 +27,104 @@
 <body>
 
     <!-- info and nav bar start -->
-
-        <div class="info-bar">
+    <header>
+        <section class="info-bar">
             <div class="info-bar-content-container">
-                <div class="call-number">Call (310) 398-6161</div>
+                <div class="call-number">Call
+                    <a href="tel:310-398-6161">(310) 398-6161</a>
+                </div>
                 <a class="call-now" href="tel:310-398-6161">
                     <button class="book-button" type="button">
-                        <img src="./assets/phone.svg" height="15em"> Call now</button>
+                        <img src="./assets/phone.svg" height="15em" alt="phone icon"> Call now</button>
                 </a>
                 <div>or</div>
                 <a href="http://www.zocdoc.com/practice/meir-agaki-d-d-s-inc-9501?lock=true&isNewPatient=false&referrerType=Widget">
                     <button class="book-button" type="button">Book online</button>
                 </a>
             </div>
-        </div>
+        </section>
+        <nav class="navbar navbar-expand-md navbar-light bg-light ">
+            <div class="container">
+                <a class="navbar-brand" href="./home.html">
+                    <img src="./assets/logo.svg" alt="frankel dental group logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-    <nav class="navbar navbar-expand-md navbar-light bg-light ">
-        <div class="container">
-            <a class="navbar-brand" href="./home.html">
-                <img src="./assets/logo.svg">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02"
-                aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                <ul class="navbar-nav ml-md-auto">
-                    <li class="nav-item ">
-                        <a class="nav-link" href="./home.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./about.html">Our Practice
-
-                        </a>
-                    </li>
-
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="./services.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
-                            aria-expanded="false">
-                            Services
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="./services.html#general">General Dentistry</a>
-                            <a class="dropdown-item" href="./services.html#cosmetic">Cosmetic Dentistry</a>
-                            <a class="dropdown-item" href="./services.html#ortho">Orthodontics</a>
-                            <a class="dropdown-item" href="./services.html#peri">Periodontics</a>
-                            <a class="dropdown-item" href="./services.html#endo">Endodontics</a>
-                            <a class="dropdown-item" href="./services.html#surgery">Oral Surgery</a>
-                        </div>
-                    </li>
-
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
-                            aria-expanded="false">
-                            Financials
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="./insurance.html">Insurance</a>
-                            <a class="dropdown-item " href="./financing.html">Financing
-                                <span class="sr-only">(current)</span>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav ml-md-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="./home.html">Home
                             </a>
-                        </div>
-                    </li>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./about.html">Our Practice</a>
+                        </li>
 
-                </ul>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="./services.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
+                                Services
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="./services.html#general">General Dentistry</a>
+                                <a class="dropdown-item" href="./services.html#cosmetic">Cosmetic Dentistry</a>
+                                <a class="dropdown-item" href="./services.html#ortho">Orthodontics</a>
+                                <a class="dropdown-item" href="./services.html#peri">Periodontics</a>
+                                <a class="dropdown-item" href="./services.html#endo">Endodontics</a>
+                                <a class="dropdown-item" href="./services.html#surgery">Oral Surgery</a>
+                            </div>
+                        </li>
 
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Financials
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="./insurance.html">Insurance
+                                    <span class="sr-only">(current)</span>
+                                </a>
+                                <a class="dropdown-item" href="./financing.html">Financing</a>
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
 
 
     <!-- info and nav bar end -->
 
-    <div class="jumbotron jumbotron-fluid hero-container">
+    <section class="jumbotron jumbotron-fluid hero-container">
         <div class="container jumbo-content-container">
             <h1 class="display-4">Insurance</h1>
             <br>
             <div class="jumbo-p-container">
-                <p>Our goal is to help remove the financial barriers so our patients can receive the dental care they need and desire. Many patients have some kind of dental insurance. Most dental insurance plans do not cover 100% of the cost of your treatment.
-                Insured patients will receive cost estimates broken down by covered and not covered costs. 
+                <p>Our goal is to help remove the financial barriers so our patients can receive the dental care they need and
+                    desire. Many patients have some kind of dental insurance. Most dental insurance plans do not cover 100%
+                    of the cost of your treatment. Insured patients will receive cost estimates broken down by covered and
+                    not covered costs.
                 </p>
                 <p>Please bring your insurance card so we may promptly get you a breakdown of your benefits.</p>
-                
+
             </div>
             <a tabindex="0" class="input-group" data-container="body" data-toggle="popover" data-placement="top" data-content="If your insurance isn’t listed, please call us to confirm we are providers.">
                 <input type="text" class="form-control" id="myInput" onkeyup="myFunction()" placeholder="Search or browse accepted providors">
             </a>
         </div>
-        
-    </div>
 
-    <div class="insurance-search">
+    </section>
+
+    <section class="insurance-search">
 
 
-    
-        
+
+
         <ul class="list-group insurance-list" id="myUL">
             <li class="list-group-item">
                 <h3>Aetna</h3>
@@ -137,10 +139,10 @@
                     <li>Dental Maintenance Organization(DMO)</li>
                     <li>Dental PPO/PDN</li>
                     <li>Discount Dental</li>
-                    <li>Family Preventive </li>                   
+                    <li>Family Preventive </li>
                 </ul>
             </li>
-        
+
             <li class="list-group-item">
                 <h3>Aflac</h3>
                 <ul>
@@ -150,12 +152,12 @@
             </li>
             <li class="list-group-item">
                 <h3>AFTRA Health &amp; Retirement Funds</h3>
-                 
+
                 <ul>
                     <li>Dental Program</li>
                 </ul>
             </li>
-        
+
             <li class="list-group-item">
                 <h3>AIG</h3>
                 <ul>
@@ -176,7 +178,7 @@
                 <ul>
                     <li>PPO Plan</li>
                 </ul>
-            
+
             </li>
             <li class="list-group-item">
                 <h3>Anthem Blue Cross Blue Shield</h3>
@@ -190,7 +192,7 @@
                     <li>Preventive/Preventive Plus Dental </li>
                     <li>Tonik</li>
                 </ul>
-            
+
             </li>
             <li class="list-group-item">
                 <h3>Assurant Dental Employee Benefits</h3>
@@ -199,7 +201,7 @@
                     <li>Dental Health Alliance Premiere </li>
                     <li>United Dental Care</li>
                 </ul>
-            
+
             </li>
             <li class="list-group-item">
                 <h3>Blue Cross and Blue Shield of Massachusetts</h3>
@@ -209,7 +211,7 @@
                     <li>Dental Blue Pro </li>
                     <li>Dental Blue Select</li>
                 </ul>
-            
+
             </li>
             <li class="list-group-item">
                 <h3>Blue Cross Blue Shield</h3>
@@ -220,7 +222,7 @@
                     <li>Federal Employee Program - Standard Option </li>
                     <li>Medicare Advantage PPO</li>
                 </ul>
-            
+
             </li>
             <li class="list-group-item">
                 <h3>Blue Cross Blue Shield of Arizona</h3>
@@ -228,7 +230,7 @@
                     <li>BluePreferred Dental (PPO)</li>
                     <li>DentalChoice</li>
                 </ul>
-            
+
             </li>
             <li class="list-group-item">
                 <h3>Blue Cross Blue Shield of Florida</h3>
@@ -242,7 +244,7 @@
                     <li>Cover Florida </li>
                     <li>GoBlue</li>
                 </ul>
-            
+
             </li>
             <li class="list-group-item">
                 <h3>Blue Cross Blue Shield of Georgia</h3>
@@ -259,7 +261,7 @@
                 <ul>
                     <li>BlueCare® Dental (DPPO)</li>
                 </ul>
-            
+
             </li>
             <li class="list-group-item">
                 <h3>Blue Cross Blue Shield of Kansas City</h3>
@@ -267,7 +269,7 @@
                     <li>Dental - Preferred Care (NA)</li>
                     <li>Dental - Traditional (NA)</li>
                 </ul>
-            
+
             </li>
             <li class="list-group-item">
                 <h3>Blue Cross Blue Shield of Michigan</h3>
@@ -279,7 +281,7 @@
                     <li>Traditional Plus Dental </li>
                     <li>Traditional Plus Preventive Dental</li>
                 </ul>
-            
+
             </li>
             <li class="list-group-item">
                 <h3>Blue Cross Blue Shield of Texas</h3>
@@ -291,7 +293,7 @@
                     <li>DentaBlue </li>
                     <li>Dental Indemnity USA</li>
                 </ul>
-            
+
             </li>
             <li class="list-group-item">
                 <h3>Blue Cross of California</h3>
@@ -305,7 +307,7 @@
                     <li>Dental PPO (Wellpoint Employees only) </li>
                     <li>Dental Select HMO</li>
                 </ul>
-            
+
             </li>
             <li class="list-group-item">
                 <h3>Blue Shield of California</h3>
@@ -315,7 +317,7 @@
                     <li>Federal Employee Health Benefit Program Access + HMO </li>
                     <li>Federal Employee Health Benefit Program PPO</li>
                 </ul>
-            
+
             </li>
             <li class="list-group-item">
                 <h3>Cigna</h3>
@@ -331,7 +333,7 @@
                     <li>Dental Choice </li>
                     <li>Dental Core</li>
                 </ul>
-            
+
             </li>
             <li class="list-group-item">
                 <h3>CompBenefits</h3>
@@ -339,14 +341,14 @@
                     <li>PPO Plans</li>
                     <li>UCR Plans</li>
                 </ul>
-            
+
             </li>
             <li class="list-group-item">
                 <h3>Connection Dental</h3>
                 <ul>
                     <li>GEHA Connection Dental Federal</li>
                 </ul>
-            
+
             </li>
             <li class="list-group-item">
                 <h3>Delta Dental</h3>
@@ -365,7 +367,7 @@
                     <li>DeltaCare USA Senior Plan </li>
                     <li>The Value Plan</li>
                 </ul>
-            
+
             </li>
             <li class="list-group-item">
                 <h3>Dental Benefit Providers</h3>
@@ -374,21 +376,21 @@
                     <li>National PPO Network</li>
                     <li>PPO</li>
                 </ul>
-            
+
             </li>
             <li class="list-group-item">
                 <h3>Dental Network of America</h3>
                 <ul>
                     <li>Dental Preferred Provider Organization (DPPO) Network</li>
                 </ul>
-            
+
             </li>
             <li class="list-group-item">
                 <h3>Dentegra</h3>
                 <ul>
                     <li>PPO</li>
                 </ul>
-            
+
             </li>
             <li class="list-group-item">
                 <h3>Excellus Blue Cross Blue Shield</h3>
@@ -397,7 +399,7 @@
                     <li>Excellus BlueCross BlueShield Dental Network</li>
                     <li>Prime Blue</li>
                 </ul>
-            
+
             </li>
             <li class="list-group-item">
                 <h3>First Dental Health</h3>
@@ -405,14 +407,14 @@
                     <li>FDH - PPO</li>
                     <li>FDH - PPO PLUS</li>
                 </ul>
-            
+
             </li>
             <li class="list-group-item">
                 <h3>GE Consumer Finance</h3>
                 <ul>
                     <li>GE Consumer Finance Wellness Program</li>
                 </ul>
-            
+
             </li>
             <li class="list-group-item">
                 <h3>Great West Healthcare</h3>
@@ -431,21 +433,21 @@
                     <li>Diversified Dental </li>
                     <li>Managed Dental Care - For CA based groups</li>
                 </ul>
-            
+
             </li>
             <li class="list-group-item">
                 <h3>Health Net</h3>
                 <ul>
                     <li>Health Net Dental</li>
                 </ul>
-            
+
             </li>
             <li class="list-group-item">
                 <h3>Humana Dental</h3>
                 <ul>
                     <li>PPO/Traditional Preferred</li>
                 </ul>
-            
+
             </li>
             <li class="list-group-item">
                 <h3>Liberty Dental</h3>
@@ -453,28 +455,28 @@
                     <li>DentalGuard Preferred Select</li>
                     <li>PPO Nevada</li>
                 </ul>
-            
+
             </li>
             <li class="list-group-item">
                 <h3>MetLife</h3>
                 <ul>
                     <li>MetLife Preferred Dentist Program (PDP)</li>
                 </ul>
-            
+
             </li>
             <li class="list-group-item">
                 <h3>Mutual of Omaha</h3>
                 <ul>
                     <li>DentaBenefits</li>
                 </ul>
-            
+
             </li>
             <li class="list-group-item">
                 <h3>Principal Financial Group</h3>
                 <ul>
                     <li>Preferred Provider Organization (PPO)</li>
                 </ul>
-            
+
             </li>
             <li class="list-group-item">
                 <h3>SafeGuard</h3>
@@ -482,7 +484,7 @@
                     <li>Classic Choice</li>
                     <li>Premier Choice</li>
                 </ul>
-            
+
             </li>
             <li class="list-group-item">
                 <h3>Sun Life Financial</h3>
@@ -492,7 +494,7 @@
                     <li>First Dental Health </li>
                     <li>Premier Dental</li>
                 </ul>
-            
+
             </li>
             <li class="list-group-item">
                 <h3>United Concordia</h3>
@@ -509,7 +511,7 @@
                     <li>Concordia Preferred </li>
                     <li>TRICARE Dental Program (TDP)</li>
                 </ul>
-            
+
             </li>
             <li class="list-group-item">
                 <h3>United Healthcare</h3>
@@ -519,65 +521,68 @@
                 </ul>
         </ul>
         <br>
-        
-    </div>
+
+    </section>
 
 
 
 
 
-<div class="footer-container">
-    <div class="footer-top">
-        <h4>
-            Call (310) 398-6161 or
-            <a href="http://www.zocdoc.com/practice/meir-agaki-d-d-s-inc-9501?lock=true&isNewPatient=false&referrerType=Widget">
-                <button class="book-button book-button-footer" type="button">Book online</button>
+    <footer class="footer-container">
+        <div class="footer-top">
+            <h4>
+                Call
+                <a href="tel:310-398-6161">(310) 398-6161</a> or
+                <a href="http://www.zocdoc.com/practice/meir-agaki-d-d-s-inc-9501?lock=true&isNewPatient=false&referrerType=Widget">
+                    <button class="book-button book-button-footer" type="button">Book online</button>
+                </a>
+            </h4>
+        </div>
+        <div class="footer-middle middle-top">
+            <h6>
+                <img class="card-icon" src="assets/location-icon-white.svg" height="30px" alt="location pin icon">Location</h6>
+            <a href="https://www.google.com/maps/place/Frankel+Dental+Group/@34.026715,-118.3960347,17z/data=!4m5!3m4!1s0x0:0x4079e36494d3c175!8m2!3d34.0267149!4d-118.3938459">9201 Venice Blvd.
+                <br> Los Angeles, CA 90034</a>
+        </div>
+        <div class="footer-middle middle-top">
+            <h6>
+                <img class="card-icon" src="assets/clock-icon-white.svg" height="25px" alt="clock icon">Hours</h6>
+            <p>Monday-Thursday: 9am-6pm
+                <br> Friday: 9am-5pm</p>
+            <meta itemprop="openingHours" content="Mo-Th 9:00-18:00" />
+            <meta itemprop="openingHours" content="Fr 9:00-17:00" />
+        </div>
+        <div class="footer-middle">
+            <h6>Follow &amp; Rate us</h6>
+            <a href="https://www.facebook.com/moradiortho/">
+                <img src="assets/facebook-logo-button.svg" alt="facebook">
             </a>
-        </h4>
-    </div>
-    <div class="footer-middle middle-top">
-        <h6>
-            <img class="card-icon" src="assets/location-icon-white.svg" height="30px">Location</h6>
-        <p>9201 Venice Blvd.
-            <br> Los Angeles, CA 90034</p>
-    </div>
-    <div class="footer-middle middle-top">
-        <h6>
-            <img class="card-icon" src="assets/clock-icon-white.svg" height="25px">Hours</h6>
-        <p>Monday-Thursday: 9am-6pm
-            <br> Friday: 9am-5pm</p>
-    </div>
-    <div class="footer-middle">
-        <h6>Follow &amp; Rate us</h6>
-        <a href="https://www.facebook.com/moradiortho/">
-            <img src="assets/facebook-logo-button.svg">
-        </a>
-        <a href="https://www.yelp.com/biz/frankel-dental-group-los-angeles">
-            <img src="assets/yelp-logo.svg">
-        </a>
-        <a href="#">
-            <img src="assets/google-plus-logo-button.svg">
-        </a>
-        <a href="#">
-            <img src="assets/instagram-logo.svg">
-        </a>
-    </div>
+            <a href="https://www.yelp.com/biz/frankel-dental-group-los-angeles">
+                <img src="assets/yelp-logo.svg" alt="yelp">
+            </a>
+            <a href="https://www.google.com/search?q=frankel+dental+group">
+                <img src="assets/google-plus-logo-button.svg" alt="google">
+            </a>
+            <a href="https://www.instagram.com/moradiorthodontics/">
+                <img src="assets/instagram-logo.svg" alt="instagram">
+            </a>
+        </div>
 
-    <div class="footer-bottom">
-        <p>Copyright &copy;2018 Frankel Dental Group</p>
-        <p>
-            <a style="color: inherit;" tabindex="0" data-container="body" data-toggle="popover" data-placement="top" data-content="Phone icon by Princes Kumudawati from the
+        <div class="footer-bottom">
+            <p>Copyright &copy;2018 Frankel Dental Group</p>
+            <p>
+                <a style="color: inherit;" tabindex="0" data-container="body" data-toggle="popover" data-placement="top" data-content="Designed and coded by David Kahn. Phone icon by Princes Kumudawati from the
             Noun Project. Teeth Icons Created by Nikita Kozin from the Noun Project. Location icon by Trendy from the Noun Project. Clock
             icon by Zaff Studio from the Noun Project. Facebook, Google, Instagram icons made by Bogdan Rosu from www.flaticon.com. Yelp
             Icon made by Freepik from www.flaticon.com. ">Attributions</a>
-        </p>
+            </p>
+        </div>
+
+
+    </footer>
+    <div class="fb-customerchat" page_id="696409010409632">
     </div>
 
-
-</div>
-<div class="fb-customerchat" page_id="696409010409632">
-</div>
-    
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -617,26 +622,26 @@
     </script>
 
 
-            <script src="./scripts.js"></script>
-<script>
-    window.fbAsyncInit = function () {
-        FB.init({
-            appId: '252416415554866',
-            autoLogAppEvents: true,
-            xfbml: true,
-            version: 'v3.0'
-        });
-    };
+    <script src="./scripts.js"></script>
+    <script>
+        window.fbAsyncInit = function () {
+            FB.init({
+                appId: '252416415554866',
+                autoLogAppEvents: true,
+                xfbml: true,
+                version: 'v3.0'
+            });
+        };
 
-    (function (d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) { return; }
-        js = d.createElement(s); js.id = id;
-        js.src = "https://connect.facebook.net/en_US/sdk.js";
-        fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) { return; }
+            js = d.createElement(s); js.id = id;
+            js.src = "https://connect.facebook.net/en_US/sdk.js";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
 
-</script>
+    </script>
 </body>
 
 </html>
