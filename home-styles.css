@@ -84,6 +84,10 @@ h5 {
     color: lightslategray;
 }
 
+.home-paragraph a {
+    color: lightslategray;
+}
+
 
 .info-section {
     text-align: center;
@@ -116,8 +120,12 @@ text-align: left;
 
 
 
-
 }
+
+.info-card-container a:hover {
+    text-decoration: none;
+}
+
 
 .info-card h6, .info-card p {
     color: rgb(69, 79, 88);
@@ -237,6 +245,11 @@ background: rgba(30,169,218,0.30);
  margin: 0 3em auto 3em;
  width: 285px;
  text-align: left;
+}
+
+
+.map-section a:hover {
+    text-decoration: none;
 }
 
 

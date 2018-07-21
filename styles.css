@@ -7,6 +7,16 @@
             box-sizing: border-box;
 }
 
+section, article, aside, footer, header, nav {
+  display: block;
+}
+
+a[href^="tel"] {
+  color: inherit; /* Inherit text color of parent element. */
+  text-decoration: none; /* Remove underline. */
+}
+
+
 button:focus {
     outline:0;
 }
@@ -125,6 +135,20 @@ button:focus {
 
 
 }
+
+.footer-container  a {
+        color: white;
+        text-decoration: none;
+                font-family: 'Source Sans Pro', sans-serif;
+
+
+}
+
+.footer-container  a:hover {
+            cursor: pointer;
+
+}
+
 .footer-container > div {
             margin-top: 2em;
 
