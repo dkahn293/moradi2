@@ -227,7 +227,8 @@ background: rgba(30,169,218,0.30);
 }
 
 .slick-arrow {
-    right: 0;
+    right: 0 !important;
+    display: none !important;
 }
 
 
