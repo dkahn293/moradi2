@@ -216,6 +216,7 @@ background: rgba(30,169,218,0.30);
 
 .social-feed img {
     height: 400px;
+    width: auto;
     padding-left: 0.5em;
     padding-right: 0.5em;
 }
