@@ -226,6 +226,10 @@ background: rgba(30,169,218,0.30);
 
 }
 
+.slick-arrow {
+    display: none;
+}
+
 
 .social-header {
     display: inline-block;
