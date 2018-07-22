@@ -221,6 +221,11 @@ background: rgba(30,169,218,0.30);
     padding-right: 0.5em;
 }
 
+.slick-slide {
+    height: 400px;
+
+}
+
 
 .social-header {
     display: inline-block;
@@ -290,6 +295,11 @@ background: rgba(30,169,218,0.30);
     .social-feed img{
         height: 300px;
     }
+
+    .slick-slide {
+        height: 300px;
+
+    }   
 
 }
 
