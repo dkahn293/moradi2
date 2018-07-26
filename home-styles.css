@@ -23,7 +23,8 @@ video {
     /* Bitmap: */
 /* Bitmap: */
 /* Bitmap: */
-    background-image: linear-gradient(-136deg, rgba(85,171,165,0.60) 0%, rgba(87,132,171,0.60) 100%);  position: absolute;
+    background-image: linear-gradient(-136deg, rgba(85,171,165,0.60) 0%, rgba(87,132,171,0.60) 100%);  
+    position: absolute;
   top: 0; right: 0; bottom: 0; left: 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -108,8 +109,8 @@ text-align: left;
 .info-card {
     /* Rectangle 3: */
     border-radius: 25px;
-    background-image: -webkit-linear-gradient(top, #009CD1, #009CD1 35%, transparent 35%, transparent 100%);
-    background-image: linear-gradient(top, #009CD1, #009CD1 35%, transparent 35%, transparent 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#009CD1), color-stop(35%, #009CD1), color-stop(35%, transparent), to(transparent));
+    background-image: linear-gradient(to bottom, #009CD1, #009CD1 35%, transparent 35%, transparent 100%);
 
     /* background-image: #009CD1; */
     -webkit-box-shadow: 0 2px 36px 0 rgba(125,125,125,0.50);
@@ -203,15 +204,15 @@ background: rgba(30,169,218,0.30);
 }
 
 .feed-social-section {
-    text-align: center;
-}
-
-.social-feed {
-    /* display: -webkit-box;
+    display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    overflow-x: scroll;
-    height: 400px; */
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+
+    /* text-align: center; */
 }
 
 .social-feed img {
@@ -221,9 +222,14 @@ background: rgba(30,169,218,0.30);
     padding-right: 0.5em;
 }
 
+.feed-social-section h2 {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    text-align: center;
+}
+
 .slick-slide {
     height: 400px;
-
 }
 
 .slick-arrow {
@@ -233,7 +239,7 @@ background: rgba(30,169,218,0.30);
 
 
 .social-header {
-    display: inline-block;
+    display: block;
     margin: 1.5em;
 }
 

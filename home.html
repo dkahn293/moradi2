@@ -219,7 +219,7 @@
 
     <section class="feed-social-section">
 
-        <h2 class="social-header">Healthier Smiles. Happier People. Better World.</h2>
+        <h2>Healthier Smiles. Happier People. Better World.</h2>
 
         <div class="social-feed">
             <div><img src="assets/facebook-images/fb1.jpg" width="auto" alt="dr moradi smiling with patients 1"></div>
@@ -351,7 +351,7 @@
 
     <script src="./scripts.js"></script>
 
-    <script>
+    <script async defer>
         window.fbAsyncInit = function () {
             FB.init({
                 appId: '252416415554866',
@@ -398,7 +398,8 @@
                 variableWidth: true,
                 autoplay: true,
                 autoplaySpeed: 2000,
-                swipeToSlide: true,
+                swipeToSlide: false,
+                draggable: false,
                 pauseOnHover: false,
                 pauseOnFocus: false,
             });
