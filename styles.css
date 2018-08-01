@@ -44,14 +44,13 @@ button:focus {
 }
 
 .info-bar-content-container {
-    -ms-flex-preferred-size: 600px;
-        width: 600px;
+    width: 600px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
+    -webkit-box-pack: space-around;
+        -ms-flex-pack: space-around;
+            justify-content: space-around;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
