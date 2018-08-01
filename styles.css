@@ -45,7 +45,7 @@ button:focus {
 
 .info-bar-content-container {
     -ms-flex-preferred-size: 600px;
-        flex-basis: 600px;
+        width: 600px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

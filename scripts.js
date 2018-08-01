@@ -26,6 +26,16 @@ function createSticky(sticky) {
                 $(sticky).find('*').removeClass("fixed-child");
             }
         });
+
+        win.ready(function () {
+            if (win.scrollTop() >= pos) {
+                sticky.addClass("fixed");
+                $(sticky).find('*').addClass("fixed-child");
+            } else {
+                sticky.removeClass("fixed");
+                $(sticky).find('*').removeClass("fixed-child");
+            }
+        });
     }
 }
 
